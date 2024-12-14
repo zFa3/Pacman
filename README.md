@@ -1,4 +1,5 @@
-Pacman Made in Java  
+Pacman Made in Java with Swing  
+![Screenshot 2024-12-13 at 7 56 12 PM](https://github.com/user-attachments/assets/1d8cc301-908f-4616-bae1-b64bbd6e684f)
 
 
 This project was made for my computer science course,  
