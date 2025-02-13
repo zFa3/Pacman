@@ -8,10 +8,14 @@ import javax.swing.Timer;
 
 // public class creates the JPanel board
 // this class is a panel that gets layered onto the PacManGui JFrame
-// this class handles most of the 
+// this class handles most of the board mechanics, such as pathfinding
+// for ghosts and the player's movement
 public class Board extends JPanel implements KeyListener, ActionListener{
 	
 	// define some search parameters
+	// 1e9 -> 10 ^ 9, a number large enough such that it never
+	// occurs in normal pathfinding, so it is used to deter
+	// ghosts from passing through walls
 	public static final int inf = (int)1e9;
 	// is the game on easy mode (default is easiest mode)
 	private static int difficulty = 1;
